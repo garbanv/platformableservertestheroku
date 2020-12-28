@@ -1,0 +1,83 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "main_hero_text": {
+      "type": "text"
+    },
+    "hero_description_1": {
+      "type": "string"
+    },
+    "hero_description_2": {
+      "type": "string"
+    },
+    "advantages_left_text": {
+      "type": "text"
+    },
+    "advantages_right_text": {
+      "type": "text"
+    },
+    "what_we_do_title_1": {
+      "type": "text"
+    },
+    "what_we_do_title_2": {
+      "type": "text"
+    },
+    "what_we_do_title_3": {
+      "type": "text"
+    },
+    "what_we_do_title_4": {
+      "type": "text"
+    },
+    "what_we_do_text_1": {
+      "type": "text"
+    },
+    "what_we_do_text_2": {
+      "type": "string"
+    },
+    "what_we_do_text_3": {
+      "type": "text"
+    },
+    "what_we_do_text_4": {
+      "type": "text"
+    },
+    "clients_text_1": {
+      "type": "text"
+    },
+    "clients_text_2": {
+      "type": "text"
+    },
+    "clients_text_3": {
+      "type": "text"
+    },
+    "clients_text_4": {
+      "type": "text"
+    },
+    "analysis_title": {
+      "type": "text"
+    },
+    "analysis_text": {
+      "type": "text"
+    },
+    "hero_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
